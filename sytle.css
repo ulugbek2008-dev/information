@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #eef2f7;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+
+.malumot {
+    width: 260px;
+    background: #ffffff;
+    padding: 25px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    height: fit-content;
+}
+
+.malumot p {
+    padding: 14px 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color: #4a5568;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.malumot p:hover {
+    background: #f1f5f9;
+}
+
+.malumot .active {
+    background: #e7f1ff;
+    color: #2b6cb0;
+}
+
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.box1,
+.telraqam,
+.password-section {
+    background: #ffffff;
+    padding: 35px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+
+.AU {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 15px;
+}
+
+.box1 h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.box1 button {
+    background: #3182ce;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box1 button:hover {
+    background: #2563eb;
+}
+
+
+.telraqam p {
+    color: #6b7280;
+    margin-bottom: 8px;
+}
+
+.telraqam h4 {
+    font-size: 20px;
+}
+
+
+.password-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-text p {
+    color: #6b7280;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.password-btn a {
+    text-decoration: none;
+    border: 2px solid #3182ce;
+    color: #3182ce;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.password-btn a:hover {
+    background: #3182ce;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+
+.malumot {
+    width: 240px;
+    background: #ffffff;
+    padding: 25px 20px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.malumot p {
+    padding: 14px 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #4a4a4a;
+    transition: 0.3s;
+}
+
+.malumot p:first-child {
+    background-color: #e8f1ff;
+    color: #2d7df6;
+    font-weight: 600;
+}
+
+.malumot p:hover {
+    background-color: #f0f4ff;
+}
+
+.box1,
+.telraqam,
+.password-section {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+    width: 600px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.AU {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #eef2f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #6b7280;
+}
+
+.box1 h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box1 button {
+    width: 220px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #2d7df6;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box1 button:hover {
+    background: #1f6ae0;
+}
+
+.telraqam p {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.telraqam h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.password-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-text h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.password-text p {
+    color: #777;
+    font-size: 14px;
+}
+
+.password-btn a {
+    padding: 12px 20px;
+    border: 2px solid #2d7df6;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #2d7df6;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.password-btn a:hover {
+    background: #2d7df6;
+    color: white;
+} */
